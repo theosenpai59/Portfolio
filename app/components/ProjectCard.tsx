@@ -2,7 +2,6 @@ import { Project } from '@/app/data/projects';
 
 export default function ProjectCard({ project }: { project: Project }) {
     return (
-        // On garde un changement de couleur de bordure simple pour l'accessibilité
         <div className="bg-white/70 backdrop-blur-sm rounded-lg border border-indigo-100 p-6 hover:border-indigo-300 transition-colors">
             <h3 className="text-xl font-bold text-gray-900">
                 {project.title}
@@ -12,7 +11,6 @@ export default function ProjectCard({ project }: { project: Project }) {
                 {project.description}
             </p>
 
-            {/* Liste de tags simple et lisible */}
             <div className="mt-4 flex flex-wrap gap-2" aria-label="Technologies utilisées">
                 {project.tags.map((tag) => (
                     <span

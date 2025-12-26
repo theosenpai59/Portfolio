@@ -9,7 +9,7 @@ export default function Hero() {
                     Salut, je suis <span className="text-indigo-600">Delaude Théo</span> 👋
                 </h1>
                 <p className="mt-6 text-lg text-gray-600 max-w-lg">
-                    Développeur full-stack orienté performance et éco-conception.
+                    Développeur.
                 </p>
 
                 </div>

@@ -9,9 +9,7 @@ export default function AboutPage() {
                 <div className="space-y-8 text-gray-700 text-lg leading-relaxed">
                     <p>
                         Je m’appelle <strong>Théo Delaude</strong>, étudiant en BUT Informatique
-                        à l’IUT de Lens. Je me forme au développement d’applications avec une
-                        attention particulière portée à la qualité du code, aux performances
-                        et à la clarté des solutions proposées.
+                        à l’IUT de Lens. Je me forme au développement d’applications et développement Web.
                     </p>
 
                     <p>

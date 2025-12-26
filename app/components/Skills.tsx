@@ -24,7 +24,7 @@ export default function Skills() {
                         <ul className="space-y-2 text-gray-700">
                             <li>Java</li>
                             <li>Python</li>
-                            <li>TypeScript</li>
+                            <li>JavaScript/TypeScript</li>
                             <li>SQL</li>
                         </ul>
                     </div>
@@ -37,8 +37,11 @@ export default function Skills() {
                         <ul className="space-y-2 text-gray-700">
                             <li>Next.js</li>
                             <li>Spring</li>
-                            <li>Git / GitLab</li>
-                            <li>MongoDB, Neo4j</li>
+                            <li>Git</li>
+                            <li>MongoDB</li>
+                            <li>Neo4J</li>
+                            <li>React</li>
+                            <li>PHP</li>
                         </ul>
                     </div>
 

@@ -12,11 +12,9 @@ export default function Home() {
 
         <div className="min-h-screen bg-[var(--bg-main)] space-y-24">
             <Header />
-            {/* 1. Section d'accueil : Présentation rapide */}
             <Hero />
             <Skills />
 
-            {/* 2. Section Projets : Tes dépôts GitLab de l'Université d'Artois */}
             <section id="projets">
                 <div className="container mx-auto px-6">
                     <div className="max-w-2xl mb-16">
@@ -30,7 +28,6 @@ export default function Home() {
                         </p>
                     </div>
 
-                    {/* Grille de projets - 1 col sur mobile, 2 cols sur desktop */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                         {projects.map((item, index) => (
                             <ProjectCard key={index} project={item} />
@@ -39,10 +36,8 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* 3. Section CV : Expériences et Formations */}
             <CVSection />
 
-            {/* 4. Section Appel à l'action (CTA) optionnelle pour terminer la page */}
             <Footer />
         </div>
     );

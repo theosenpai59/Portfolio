@@ -17,7 +17,7 @@ export default function Footer() {
                     </div>
 
                     <div className="flex space-x-6 mb-6 md:mb-0">
-                        <Link href="#projets" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                        <Link href="/#projets" className="text-gray-600 hover:text-indigo-600 transition-colors">
                             Projets
                         </Link>
                         <Link href="/a-propos" className="text-gray-600 hover:text-indigo-600 transition-colors">
